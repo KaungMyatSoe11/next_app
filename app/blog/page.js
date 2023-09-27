@@ -9,6 +9,7 @@ const Blog = () => {
     <div>
       Blog page
       <br />
+      {process.env.NEXT_PUBLIC_ANALYTICS_ID}
       <Image src={view_photo} alt="beach view photo"  />
     </div>
   );
